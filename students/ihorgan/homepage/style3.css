@@ -1,0 +1,37 @@
+*{
+background-color: #a4bfb7;
+}
+.header{
+	 background-color: #4F7B5F;
+  color: #a4bfb7;
+  float: center;
+  padding:20px;
+  font-family: georgia, serif;
+	font-size: 100px;
+	border: solid;
+	border-color: #F5DEB3;
+}
+.info{
+	 background-color: #4a6b61;
+  color: white;
+  margin: 10px;
+  float: center;
+  padding: 30px;
+  border: solid;
+	border-color: #F5DEB3;
+}
+.video{
+	border: double;
+border-width: 15px;
+border-color: #F5DEB3;
+float: center;
+}
+.text{
+		 background-color: #4a6b61;
+  color: white;
+  margin: 10px;
+  float: left;
+  padding: 10px;
+  border: solid;
+	border-color: #F5DEB3;
+}
