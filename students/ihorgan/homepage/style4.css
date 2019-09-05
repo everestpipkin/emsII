@@ -1,0 +1,38 @@
+*{
+background-color: #a3909c;
+}
+.header{
+	 background-color: #69405a;
+  color: #a3909c;
+  float: center;
+  padding:20px;
+  font-family: georgia, serif;
+	font-size: 100px;
+	border: solid;
+	border-color: #F5DEB3;
+}
+.video{
+	border: double;
+border-width: 15px;
+border-color: #F5DEB3;
+float: right;
+}
+.text{
+		 background-color: #69405a;
+  color: white;
+  margin: 10px;
+  float: left;
+  padding: 10px;
+  border: solid;
+	border-color: #F5DEB3;
+}
+.image {
+   -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(270deg);
+  float: left;
+  border: solid;
+  border-color: #F5DEB3;
+}
