@@ -1,5 +1,7 @@
 ---
 ---
+weh
+
 <h1>Index of ./ -- student work</h1>
 <ul></ul>
 
@@ -37,7 +39,6 @@ h1+ul{
 }
 .file{
     position:relative;
-    height:50px
 }
 .file a{
     position:absolute;
@@ -86,16 +87,21 @@ ul li:before{
 
 var c = document.getElementsByTagName("ul")[0];
 
-function escapeHtml(e){return e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}for(var files=[{% for url in site.static_files %}'{{ url.path | replace: "'", "\'" }}',{% endfor %}],i=0;i<files.length;i++)
+function escapeHtml(e){return e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}
+
+for(var files=[{% for url in site.static_files %}'{{ url.path | replace: "'", "\'" }}',{% endfor %}],i=0;i<files.length;i++)
  {
     var url = files[i].split("/").slice(1);
     console.group(files[i]);
-    
+    console.log("url:   " + url);
+
     for (var x = 0; x < url.length; x++) {
         var file = url[x];
+        console.log("file:   " + file);
         if (file)
             for (var element = null, parent = null, y = 0; y < x + 1; y++) {
                 var el = document.querySelector("[ref=" + JSON.stringify(y + "-" + url[y]) + "]");
+                console.log("el:   " + el);
                 if (!el) {
                     var type = "folder";
                     url[y].indexOf(".") > -1 && (type = "file"), el = document.createElement("li");
