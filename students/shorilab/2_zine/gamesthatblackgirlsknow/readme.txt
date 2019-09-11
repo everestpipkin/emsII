@@ -1,0 +1,1 @@
+This is your save file from the Electric Zine Maker. Do not rename the images! Images must be named respective of the panel they are loaded into. Images must be .png's. To load this zine drag and drop this folder into the Main Menu Page Area of the Zine Maker. To load individual panels just drag & drop the one panel image that you want to load.
