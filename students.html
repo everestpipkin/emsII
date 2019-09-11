@@ -101,7 +101,7 @@ for(var files=[{% for url in site.static_files %}'{{ url.path | replace: "'", "\
         if (file)
             for (var element = null, parent = null, y = 0; y < x + 1; y++) {
                 var el = document.querySelector("[ref=" + JSON.stringify(y + "-" + url[y]) + "]");
-                console.log("el:   " + el);
+                console.log(el);
                 if (!el) {
                     var type = "folder";
                     url[y].indexOf(".") > -1 && (type = "file"), el = document.createElement("li");
