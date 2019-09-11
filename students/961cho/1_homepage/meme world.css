@@ -1,0 +1,22 @@
+.cho {
+	display: flex;
+	flex-direction: row;
+	width: 10%;
+	justify-content: space-around;
+}
+
+.title {
+	color: #42f5f5;
+}
+
+.court {
+	color: #b3ff00;
+}
+
+.gonzo {
+	color: #fb00ff;
+}
+
+body {
+	background-image: url("nohead.gif")
+}
