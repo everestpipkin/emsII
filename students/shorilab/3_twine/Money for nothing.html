@@ -102,7 +102,7 @@ You go through some perfunctory greetings and hi, hello, how are yous - then it&
 
 &quot;A hundred...&quot;
 
-(set: $momsanswer either “yes” or “no”)
+(set: $momsanswer to (either: &quot;yes&quot;, &quot;no&quot;))
 
 (if:$momsanswer is &quot;yes&quot;)[[She sighs exasperatedly through the phone...--&gt;mom said yes]]
 (if:$momsanswer is &quot;no&quot;)[[She sighs exasperatedly though the phone--&gt;mom said no]]</tw-passagedata><tw-passagedata pid="11" name="call them" tags="" position="1595.0000000000002,716.6666666666666" size="100,100">(text-color: &quot;#932CE8&quot;)[&quot;Hello?&quot;]
@@ -221,8 +221,8 @@ You managed to pay your rent without getting a single hour of overtime!
 Not only that: you&#39;ve managed to...
 
 (unless: $relationship is &quot;over&quot;)[•maintain you relationship]
-(unless: $dignity is &gt; &quot;50&quot;)[•keep your dignity]
-(unless: $will is &gt; &quot;50&quot;)[•maintain the will to go on]
+(unless: $dignity is &gt; 50)[•keep your dignity]
+(unless: $will is &gt; 50)[•maintain the will to go on]
 
 It was a painful experience to say the very least, but what matters is that you got your rent paid for this month. The struggle of it - the incredible inner feelings of defeat you experienced as you asked your loved ones for something to help you out just this once - it was not in vain. You are entirely in the clear... 
 
