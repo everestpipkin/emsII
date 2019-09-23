@@ -1,0 +1,45 @@
+*{
+background-color: #F0F8FF;
+}
+
+.gallery {
+  margin: 10px;
+  border: 10px solid #ccc;
+  float: center;
+  width: 500px;
+}
+
+.gallery:hover {
+  border: 10px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: georgia, serif;
+  font-size: 10;
+  background-color: #008B8B;
+}
+.info{
+	 background-color: #7B6C4F;
+  color: white;
+  margin: 100px;
+  padding: 30px;
+  border: solid;
+	border-color: #F5DEB3;
+}
+.header{
+	 background-color: #BC8F8F;
+  color: #F0F8FF;
+  float: center;
+  padding:20px;
+  font-family: georgia, serif;
+	font-size: 100px;
+	border: solid;
+	border-color: #F5DEB3;
+}
